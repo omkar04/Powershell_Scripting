@@ -6,7 +6,7 @@ $freespace = ($disk.Free / ($disk.Used + $disk.Free)) * 100
 $SmtpServer = "smtp.gmail.com"
 $SmtpPort = 587
 $Username = "omrshinde1999@gmail.com"
-$Password = "khya xbve cohf xxpp"  # Replace this with a secure app password.
+$Password = "-----------"  # Replace this with a secure app password.
 $SecurePassword = ConvertTo-SecureString $Password -AsPlainText -Force
 $Credential = New-Object System.Management.Automation.PSCredential ($Username, $SecurePassword)
 
